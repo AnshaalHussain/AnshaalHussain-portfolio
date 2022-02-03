@@ -159,6 +159,10 @@ p {
   margin-bottom: 1rem;
 }
 
+#credits {
+  font-size: 0.9rem;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -238,7 +242,7 @@ sup {
 
 a {
   color: #bd5d38;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #974a2d;
@@ -301,7 +305,25 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  max-width: 600px;
+  max-height: 500px;
+  border: 3px solid rgb(110, 108, 108);
+  margin: 5px 0px;
 }
+
+.background-img {
+  background-image: url(../assets/img/landing_pic.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.background-resume {
+  background-color: rgba(255, 255, 255, 0.973);
+  padding: 80px 60px;
+  width: 100%;
+
+}
+
 
 table {
   caption-side: bottom;
